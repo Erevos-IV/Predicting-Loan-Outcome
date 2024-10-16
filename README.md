@@ -15,3 +15,7 @@ The Data used for the development of the project is found [here](https://www.kag
 - **PySpark**   - For distributed data Engineering, Processing and Model Development.
 - **MySQL**     - To Store Data in the Database.
 
+## Usage
+
+- Import the Data files in a MySQL Environment using [LoadDatatoDB.py](https://github.com/Erevos-IV/Predicting-Loan-Outcome/tree/main/LoadDataToDatabase)
+- 
