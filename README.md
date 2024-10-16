@@ -17,6 +17,6 @@ The Data used for the development of the project is found [here](https://www.kag
 
 ## Installation
 
-- Set up a Pyspark Environment and install the required [libraries]()
-- Import the Data files in a MySQL Environment using [LoadDatatoDB.py](https://github.com/Erevos-IV/Predicting-Loan-Outcome/tree/main/LoadDataToDatabase)
-- Run the 
+- Set up a Pyspark Environment and install the required [libraries](https://github.com/Erevos-IV/Predicting-Loan-Outcome/blob/main/OtherFiles/RequiredLibraries.txt).
+- Import the Data files in a MySQL Environment using [LoadDatatoDB.py](https://github.com/Erevos-IV/Predicting-Loan-Outcome/tree/main/LoadDataToDatabase).
+- Run the [EDA]() notebook to visualize the data.
