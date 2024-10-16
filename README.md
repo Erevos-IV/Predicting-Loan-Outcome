@@ -7,4 +7,9 @@ Welcome to the repository for my master's thesis, **"Exploring Borrower Reliabil
 The Data used for the development of the project is found [here](https://www.kaggle.com/competitions/home-credit-default-risk/data)
 
 
+## Technologies Used
+
+- **Python**    - For data visualization.
+- **PySpark**   - For distributed data Engineering, Processing and Model Development.
+- **MySQL**     - To Store Data in the Database.
 
