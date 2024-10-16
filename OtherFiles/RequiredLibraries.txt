@@ -1,0 +1,50 @@
+Required Libraries:
+
+
+1) Load Data to DB
+
+from pyspark.sql import SparkSession
+import os
+
+2) Exploratory Data Analysis
+
+from pyspark.sql import SparkSession
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+import warnings
+warnings.filterwarnings('ignore')
+
+3) Feature Engineering and Model Development
+
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, sum as _sum, when, lit, mean, count, udf
+import pyspark.sql.functions as F
+from pyspark.sql.types import IntegerType, DoubleType, StringType
+from pyspark.ml.feature import StringIndexer, OneHotEncoder
+from pyspark.ml import Pipeline
+from pyspark.ml.feature import VectorAssembler, StandardScaler
+from pyspark.ml.classification import MultilayerPerceptronClassifier
+from pyspark.ml.evaluation import BinaryClassificationEvaluator
+from pyspark.ml.evaluation import MulticlassClassificationEvaluator
+from sklearn.decomposition import PCA
+from sklearn.metrics import roc_curve, auc
+
+
+import tensorflow as tf
+from tensorflowonspark import TFCluster, TFNode
+
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+import warnings
+warnings.filterwarnings('ignore')
+
+import os
+import shutil
+
+
